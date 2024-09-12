@@ -1,0 +1,7 @@
+<h3>ListCard de Produtos </h3>
+
+<div class="row"> 
+    <div class="col col-xl-3 col-lg-4 col-sm-6 col-12" *ngFor="let prod of listaProdutos">
+        <app-card-produto [produto]="prod"></app-card-produto>
+    </div>
+</div>
